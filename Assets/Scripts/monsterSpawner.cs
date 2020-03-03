@@ -13,7 +13,7 @@ public class monsterSpawner : MonoBehaviour
     void Start()
     {
         spawnAllowed = true;
-        InvokeRepeating("SpawnAMonster", 0f, 1f); //spawn a monster every 1 second
+        InvokeRepeating("SpawnAMonster", 0f, 2f); //spawn a monster every 2 seconds
     }
 
     // Update is called once per frame
