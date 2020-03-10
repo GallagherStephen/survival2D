@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class bulletScript : MonoBehaviour
 {
+
     public float bulletSpeed = 20f;
     public int damage = 40; //default damage to enemy ( CAN CHANGE IF U WANT)
     public Rigidbody2D rb;
     public GameObject impactEffect; //effect
-    // Start is called before the first frame update
+    
+
+
     void Start()
     {
         rb.velocity = transform.right * bulletSpeed;
