@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class monsterSpawner : MonoBehaviour
+public class Enemy1lv3Script : MonoBehaviour
 {
 
     public Transform[] spawnpoints; //creating a spawnpoints array
@@ -25,14 +25,14 @@ public class monsterSpawner : MonoBehaviour
     // Update is called once per frame
     void SpawnAMonster()
     {
-        
+
         randomSpawnPoint = Random.Range(0, spawnpoints.Length);
         randomMonster = Random.Range(0, monsters.Length);
         Instantiate(monsters[randomMonster], spawnpoints[randomSpawnPoint].position, Quaternion.identity);
-        
-    }
-
-   
-    
 
     }
+
+
+
+
+}

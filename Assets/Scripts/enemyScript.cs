@@ -6,11 +6,39 @@ public class enemyScript : MonoBehaviour
 {
 
     public int health = 100; //setting enemy health
-    public GameObject deathEffect;
+
+     [SerializeField] private GameObject deathEffect;
+     [SerializeField]private float deathEffectDuration = 1.0f;
+
+
+    // delegate type to use for event
+    public delegate void EnemyKilled(enemyScript enemy);
+
+    // create static method to be implemented in the listener
+    public static EnemyKilled EnemyKilledEvent;
+
+
+
     public float speed;
-    public bool MoveLeft;
+     public bool MoveLeft;
 
+     void Update()
+        {   
+        
+            //==========================================================
+            //MOVEMENT
+            //==========================================================
+            if (MoveLeft) //(2)(positive)
+            {
+                transform.Translate(2 * Time.deltaTime * speed, 0,0);
+            }
+            else //move right(-2)(negative)
+            {
+                transform.Translate(-2 * Time.deltaTime * speed, 0,0);
 
+            }
+        
+        }
 
 
 
@@ -24,36 +52,44 @@ public class enemyScript : MonoBehaviour
 
         if ( health <= 0)
         {
-            Die();
+            //Die();
+            Destroy(gameObject);
+          
         }
     }
-    
+
 
     //=====================================================================
     //death effect and kill the enemy
     //======================================================================
-    void Die()
+    private void OnTriggerEnter2D(Collider2D Hit)
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
-    }
-    
-    void Update()
-    {   
-        
-        //==========================================================
-        //MOVEMENT
-        //==========================================================
-        if (MoveLeft) //(2)(positive)
-        {
-            transform.Translate(2 * Time.deltaTime * speed, 0,0);
-        }
-        else //move right(-2)(negative)
-        {
-            transform.Translate(-2 * Time.deltaTime * speed, 0,0);
+        var player = Hit.GetComponent<move2d>();
+        var bullet = Hit.GetComponent<bulletScript>();
 
+        if (bullet)
+        { 
+        GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(effect, deathEffectDuration); //telling the death effect how long when used
+        Destroy(gameObject);
         }
-        
+
+        if (player)  // if (player != null)
+        {
+            // destroy the player 
+            Destroy(player.gameObject);
+            Destroy(gameObject);
+        }
+
+    }
+
+    private void PublishEnemyKilledEvent()
+    {
+        // make sure somebody is listening
+        if (EnemyKilledEvent != null)
+        {
+            EnemyKilledEvent(this);
+        }
     }
 
 
