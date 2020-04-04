@@ -630,7 +630,7 @@ PrefabInstance:
     - target: {fileID: 4118374740877505353, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 75
+      value: 73.98
       objectReference: {fileID: 0}
     - target: {fileID: 4118374740877505353, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
@@ -676,7 +676,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 607f44aceb7636742b65b0fd483bfe59,
+      objectReference: {fileID: 21300000, guid: ff2757d6eb7131b4386ee1582824546e,
         type: 3}
     - target: {fileID: 7391479209128755981, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
