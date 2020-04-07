@@ -466,6 +466,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1677908770}
     m_Modifications:
+    - target: {fileID: 1106815885773698131, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -536,6 +541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: RulesScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Transition
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1957737367552312514, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
@@ -704,6 +714,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1677908770}
     m_Modifications:
+    - target: {fileID: 1106815885773698131, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -774,6 +789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Transition
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1957737367552312514, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
@@ -1256,6 +1276,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1677908770}
     m_Modifications:
+    - target: {fileID: 1106815885773698131, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1326,6 +1351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Transition
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1957737367552312514, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}

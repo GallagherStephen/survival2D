@@ -323,7 +323,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279093177}
   m_LocalRotation: {x: -0, y: -0, z: -0.002284892, w: 0.99999744}
-  m_LocalPosition: {x: 0.42, y: 3.66, z: 0}
+  m_LocalPosition: {x: 0.42, y: -0.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1220793621}
@@ -922,12 +922,12 @@ PrefabInstance:
     - target: {fileID: 986241335640614651, guid: 6805f7341c5a3be4ab94fa89d51957b3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.25
+      value: 15.16
       objectReference: {fileID: 0}
     - target: {fileID: 986241335640614651, guid: 6805f7341c5a3be4ab94fa89d51957b3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.26
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 986241335640614651, guid: 6805f7341c5a3be4ab94fa89d51957b3,
         type: 3}
@@ -1159,6 +1159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: OptionsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Transition
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1957737367552312514, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}

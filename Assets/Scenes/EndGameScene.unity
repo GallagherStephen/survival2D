@@ -229,7 +229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -246.99, y: -115.48}
+  m_AnchoredPosition: {x: -273.6, y: -115.62}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &351636882
@@ -275,7 +275,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Final Score 0
+  m_Text: Score 0
 --- !u!222 &351636884
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -515,7 +515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -46.299988, y: -118.25}
+  m_AnchoredPosition: {x: -46.30005, y: -118.25}
   m_SizeDelta: {x: -872.3999, y: -376.29996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251601578
@@ -700,6 +700,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1776625549}
     m_Modifications:
+    - target: {fileID: 1106815885773698131, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -943,6 +948,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1776625549}
     m_Modifications:
+    - target: {fileID: 1106815885773698131, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1587,6 +1597,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1776625549}
     m_Modifications:
+    - target: {fileID: 1106815885773698131, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

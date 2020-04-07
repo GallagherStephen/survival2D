@@ -1023,6 +1023,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemy2
       objectReference: {fileID: 0}
+    - target: {fileID: 2249887945410592517, guid: d04b7a5078dafcb4d869f101f016c3dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2249887945410592521, guid: d04b7a5078dafcb4d869f101f016c3dc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1426,7 +1431,7 @@ GameObject:
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1540211776
 Transform:
   m_ObjectHideFlags: 0
@@ -1628,6 +1633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: OptionsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232389294901482941, guid: c0f3279f58b754b4a8823acfdadd5733,
+        type: 3}
+      propertyPath: m_Transition
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1957737367552312514, guid: c0f3279f58b754b4a8823acfdadd5733,
         type: 3}
@@ -2465,7 +2475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2107355596
 Transform:
   m_ObjectHideFlags: 0
