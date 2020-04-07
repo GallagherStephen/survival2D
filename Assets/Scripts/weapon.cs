@@ -6,8 +6,9 @@ public class weapon : MonoBehaviour
 {
     public Transform startingBulletPoint; //OBJECT CREATED STATING STARTING POINT
     public GameObject bulletPrefab;       //BULLET OBJECT IN PREFAB
+    private AudioSource audioSound;
 
-
+    
     //=====================================================
     // Shoot using the left click when pressed
     // Update is called once per frame
@@ -17,6 +18,7 @@ public class weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             shoot();
+            audioSound.Play();
         }
     }
 
@@ -28,6 +30,7 @@ public class weapon : MonoBehaviour
         //shooting logic
         //create a bullet at the starting bullet position from the prefab
         Instantiate(bulletPrefab, startingBulletPoint.position, startingBulletPoint.rotation);
+        audioSound = GetComponent<AudioSource>();
     }
 
 
