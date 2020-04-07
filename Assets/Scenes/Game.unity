@@ -589,6 +589,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1660564758}
     m_Modifications:
+    - target: {fileID: 986241335640614645, guid: 6805f7341c5a3be4ab94fa89d51957b3,
+        type: 3}
+      propertyPath: newLevel
+      value: EndGameScene
+      objectReference: {fileID: 0}
     - target: {fileID: 986241335640614649, guid: 6805f7341c5a3be4ab94fa89d51957b3,
         type: 3}
       propertyPath: m_Name
@@ -1304,6 +1309,7 @@ MonoBehaviour:
   health: 100
   deathEffect: {fileID: 0}
   deathEffectDuration: 1
+  newLevel: 
   speed: 0
   MoveLeft: 0
 --- !u!1 &1501200309
@@ -1522,6 +1528,7 @@ MonoBehaviour:
   health: 100
   deathEffect: {fileID: 0}
   deathEffectDuration: 1
+  newLevel: 
   speed: 0
   MoveLeft: 0
 --- !u!1 &1660564757

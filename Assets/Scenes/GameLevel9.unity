@@ -647,6 +647,7 @@ MonoBehaviour:
   health: 100
   deathEffect: {fileID: 0}
   deathEffectDuration: 1
+  newLevel: 
   speed: 0
   MoveLeft: 0
 --- !u!136 &585475217
@@ -1764,6 +1765,7 @@ MonoBehaviour:
   health: 100
   deathEffect: {fileID: 0}
   deathEffectDuration: 1
+  newLevel: 
   speed: 0
   MoveLeft: 0
 --- !u!136 &1613602447
@@ -1915,6 +1917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 986241335640614645, guid: 6805f7341c5a3be4ab94fa89d51957b3,
+        type: 3}
+      propertyPath: newLevel
+      value: EndGameScene
       objectReference: {fileID: 0}
     - target: {fileID: 986241335640614649, guid: 6805f7341c5a3be4ab94fa89d51957b3,
         type: 3}
@@ -2181,6 +2188,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249887945410592516, guid: d04b7a5078dafcb4d869f101f016c3dc,
+        type: 3}
+      propertyPath: newLevel
+      value: EndGameScene
       objectReference: {fileID: 0}
     - target: {fileID: 2249887945410592517, guid: d04b7a5078dafcb4d869f101f016c3dc,
         type: 3}

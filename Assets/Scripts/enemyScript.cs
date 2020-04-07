@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement; //needed for loading a new scene
 public class enemyScript : MonoBehaviour
 {
 
@@ -9,7 +9,7 @@ public class enemyScript : MonoBehaviour
 
      [SerializeField] private GameObject deathEffect;
      [SerializeField]private float deathEffectDuration = 1.0f;
-
+     [SerializeField] private string newLevel;
 
     // delegate type to use for event
     public delegate void EnemyKilled(enemyScript enemy);
@@ -79,6 +79,7 @@ public class enemyScript : MonoBehaviour
             // destroy the player 
             Destroy(player.gameObject);
             Destroy(gameObject);
+            SceneManager.LoadScene(newLevel); //load new scene level
         }
 
     }
